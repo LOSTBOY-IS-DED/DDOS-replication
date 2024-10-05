@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+
+/attack/package-lock.json
+/backend/package-lock.json

